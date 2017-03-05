@@ -111,12 +111,20 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     font-weight: 100;
     text-transform: uppercase;
 }
+.banner_text h4{
+    color: #FFFFFF;
+    font-size: 4em;
+    margin: 0;
+    font-weight: 100;
+    text-transform: uppercase;
+}
 .banner_text p{
     color: #FFFFFF;
     font-size: 1em;
     margin: 3em 0;
     letter-spacing: 2px;
 }
+
 .w3-button a{
 	color: #FFFFFF;
     font-size: 1em;
@@ -373,6 +381,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 	line-height:1.8em;
 	margin:1em 0 0 0;
 }
+
 /*-- //about --*/
 /*-- services --*/
 .services{
@@ -385,7 +394,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     padding: 1em;
 }
 .w3-agileits-services-grid i.fa.fa-cogs,.w3-agileits-services-grid i.fa.fa-comments,.w3-agileits-services-grid i.fa.fa-heart,.w3-agileits-services-grid i.fa.fa-plane,.w3-agileits-services-grid i.fa.fa-paper-plane,.w3-agileits-services-grid i.fa.fa-road{
-    color: #ff5301;
+    color:#ff5301;
     font-size: 2em;
 }
 .w3-agileits-services-grid h4{
@@ -458,7 +467,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- //services --*/
 /*-- team --*/
 .team{
-	background:url(../images/11.jpg) no-repeat 0px 0px;
+	/**--background:url(../images/11.jpg) no-repeat 0px 0px;--*/
 	background-size:cover;
 }
 .jarallax {
@@ -468,7 +477,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     background-position: 50% 50%;
 }
 .team-heading h3{
-	color:#FFFFFF;
+	color:#000000;
 }
 .team-heading h4{
     color: rgba(255, 255, 255, 0.47);
@@ -481,7 +490,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     overflow: hidden;	
 }
 .team-info img{
-	width:100%;
+	width:20%;
 }
 .team-caption h4{
     color: #FFFFFF;
@@ -573,6 +582,59 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     bottom: 0%;
 }
 /*-- //team --*/
+/*--payment --*/
+
+.agileits-payment-grids{
+    margin: 5em 0 0 0;
+}
+.agileits-payment-grid h4{
+    color: #212121;
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+.agileits-payment-grid p{
+	color:#999999;
+	font-size:.9em;
+	line-height:1.8em;
+	margin:1em 0 0 0;
+}
+.agileits-payment-grid p strong{
+	color:#999999;
+	font-size:.9em;
+	line-height:1.8em;
+	margin:1em 0 0 0;
+}
+
+.agileits-activation-grids{
+    margin: 5em 0 0 0;
+}
+.agileits-activation-grid h4{
+    color: #212121;
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+.agileits-activation-grid p{
+	color:#999999;
+	font-size:.9em;
+	line-height:1.8em;
+	margin:0 0 0 0;
+	
+}
+
+.agileits-activation-grid p b{
+	color:#999999;
+	font-size:.9em;
+	line-height:1.8em;
+	margin:1em 0 0 0;
+}
+
+#activatePlan {
+color: green;
+}
 /*-- contact --*/
 .contact-form {
     margin: 5em 0 0 0;
